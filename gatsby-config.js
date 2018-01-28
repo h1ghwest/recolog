@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Recolog',
     author: 't0m0y4n',
-    siteUrl: 'https://h1ghwest.github.io/recolog',
+    siteUrl: 'https://t0m0y4n.github.io/recolog',
     description: '日々の技術や趣味について記録していくブログです。'
   },
   pathPrefix: '/recolog',
