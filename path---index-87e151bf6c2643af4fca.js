@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{495:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Recolog"}},allMarkdownRemark:{edges:[{node:{excerpt:"去年のアウトプット不足を痛感したので去年を振り返りつつブログを始めて行こうと思う。 Reactを使った静的サイトジェネレーターを使ってgithub-pages上にとりあえず作成 gatsbyjs/gatsby 1月~4月 Wordpress…",fields:{slug:"/hellowordl.mov/"},frontmatter:{date:"28 January, 2018",title:"2017年の振り返りと2018年"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-87e151bf6c2643af4fca.js.map
