@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: 'Recolog',
-    author: 'h1ghwest',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    author: 't0m0y4n',
+    siteUrl: 'https://h1ghwest.github.io/recolog',
+    description: '日々の技術や趣味について記録していくブログです。'
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/recolog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
