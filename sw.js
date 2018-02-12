@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/recolog/app-38bf2104424e02ae0b8e.js","1e6fb0cb8d23feda416db0c7c3800efa"],["/recolog/app-6ee886f8b1bf29dda9eb.js","c5ce453790e71776a04e2be436db6086"],["/recolog/commons-409290437463d6f01a5d.js","029debd832987fb909b1ee42be51658c"],["/recolog/index.html","4ec159de840115ae4a5ddf13d5a62a4f"],["/recolog/offline-plugin-app-shell-fallback/index.html","14d828d03cf330b603a4325a16bc0850"]];
+var precacheConfig = [["/recolog/app-1220c3c9393daf11564d.js","9df98d634548ed989727f362214c5bf7"],["/recolog/app-38bf2104424e02ae0b8e.js","1e6fb0cb8d23feda416db0c7c3800efa"],["/recolog/app-6ee886f8b1bf29dda9eb.js","c5ce453790e71776a04e2be436db6086"],["/recolog/commons-409290437463d6f01a5d.js","61c835de143dd157c83e4c9b2ccb720f"],["/recolog/index.html","ad236e3efe14f95c7af68444b7231d35"],["/recolog/offline-plugin-app-shell-fallback/index.html","946c38602ba0d5f77d3862f982434361"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
