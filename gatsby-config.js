@@ -3,7 +3,8 @@ module.exports = {
     title: 'Recolog',
     author: 't0m0y4n',
     siteUrl: 'https://t0m0y4n.github.io/recolog',
-    description: '日々の技術や趣味について記録していくブログです。'
+    description: '日々の技術や趣味について記録していくブログです。',
+    linkPrefix: "/recolog"
   },
   pathPrefix: '/recolog',
   plugins: [
