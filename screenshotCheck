@@ -1,0 +1,3 @@
+#! /bin/sh
+aws s3 sync screenshot ${BUCKET} --delete --exclude .keep && curl -X POST -d "{\"content\": \"$IMAGEURL\"}" ${WEBHOOK}
+exit 0
