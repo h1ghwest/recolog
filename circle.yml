@@ -17,6 +17,8 @@ deployment:
   production:
     branch: master
     commands:
+      - git config --global user.email $EMAIL
+      - git config --global user.name $NAME
       - sudo apt-get install fonts-ipafont fonts-ipaexfont
       - yarn deploy
       - node screenshot.js
