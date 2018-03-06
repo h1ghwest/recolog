@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Mar 2018 09:00:12 GMT</lastBuildDate><item><title><![CDATA[run-android(実機)でハマる]]></title><description><![CDATA[経緯 日頃SurfacePro2でReactNativeを触っていたがデスクトップにも環境を入れるかと思った際に で30分ぐらいハマる 解決策 events.js:182 throw er; // Unhandled ‘error’ event Error: spawn cmd…]]></description><link>https://t0m0y4n.github.io/recolog/2018-02-12/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-02-12/</guid><pubDate>Mon, 12 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;経緯&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 08:26:32 GMT</lastBuildDate><item><title><![CDATA[run-android(実機)でハマる]]></title><description><![CDATA[経緯 日頃SurfacePro2でReactNativeを触っていたがデスクトップにも環境を入れるかと思った際に で30分ぐらいハマる 解決策 events.js:182 throw er; // Unhandled ‘error’ event Error: spawn cmd…]]></description><link>https://t0m0y4n.github.io/recolog/2018-02-12/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-02-12/</guid><pubDate>Mon, 12 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;経緯&lt;/h2&gt;
 &lt;p&gt;日頃SurfacePro2でReactNativeを触っていたがデスクトップにも環境を入れるかと思った際に&lt;/p&gt;
 &lt;p&gt;
   &lt;a
@@ -35,7 +35,7 @@
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;Error: spawn cmd.exe ENOENT&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;Error: spawn cmd.exe ENOENT&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;で30分ぐらいハマる&lt;/p&gt;
 &lt;h2&gt;解決策&lt;/h2&gt;
@@ -51,7 +51,7 @@
 &lt;a href=&quot;https://browsersync.io/docs/options#option-proxy&quot;&gt;proxy&lt;/a&gt;を噛まし、Cookieを直接コピペして強引にログイン状態を維持したまま更新作業する。 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.geolocation.co.jp/learn/inv/09.html&quot;&gt;プロキシサーバとは&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-js&quot;&gt;&lt;code&gt;bs&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;config&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;js
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;bs&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;config&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;js
 module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   proxy&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     target&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;サイトURL&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
