@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 08:26:32 GMT</lastBuildDate><item><title><![CDATA[run-android(実機)でハマる]]></title><description><![CDATA[経緯 日頃SurfacePro2でReactNativeを触っていたがデスクトップにも環境を入れるかと思った際に で30分ぐらいハマる 解決策 events.js:182 throw er; // Unhandled ‘error’ event Error: spawn cmd…]]></description><link>https://t0m0y4n.github.io/recolog/2018-02-12/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-02-12/</guid><pubDate>Mon, 12 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;経緯&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 09:40:16 GMT</lastBuildDate><item><title><![CDATA[最近気になった物]]></title><description><![CDATA[codeigniter Phalcon しか触ったことなかった為お手軽そうなcodeigniterのtutorialを一回走った。 t0m0120/codeigniter-tutorial flutter/flutter google Dart製のAndroid/ios…]]></description><link>https://t0m0y4n.github.io/recolog/2018-03-02/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-03-02/</guid><pubDate>Fri, 02 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeigniter.com/user_guide/tutorial/index.html&quot;&gt;codeigniter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://phalconphp.com/ja/&quot;&gt;Phalcon&lt;/a&gt;しか触ったことなかった為お手軽そうなcodeigniterのtutorialを一回走った。&lt;br&gt;
+&lt;a href=&quot;https://github.com/t0m0120/codeigniter-tutorial&quot;&gt;t0m0120/codeigniter-tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;flutter/flutter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;google Dart製のAndroid/iosアプリSDK?
+ReactNativeを倒せるのか。&lt;br&gt;
+サードパーティー製のパッケージまみれになるReactNativeより普通の機能なら公式でほとんど提供されてるっぽくていい感じ。&lt;br&gt;
+ReactNative画面遷移だけで3つあるしな・・・&lt;/p&gt;
+&lt;p&gt;時間あるときに触ってみる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.amazon.com/ja/alexa-skills-kit/training/building-a-skill&quot;&gt;Alexaスキル開発トレーニング&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lambda経由でいけるので軽く触る。&lt;br&gt;
+Echodot毎日寝る前のBGMと寝起きのアラーム/ごみ出し日のリマインダーに使ってるけど&lt;br&gt;
+声だけで音楽かけたりアラームできるのは想像以上にいいので買うべき。もう一個リビングに欲しい。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[run-android(実機)でハマる]]></title><description><![CDATA[経緯 日頃SurfacePro2でReactNativeを触っていたがデスクトップにも環境を入れるかと思った際に で30分ぐらいハマる 解決策 events.js:182 throw er; // Unhandled ‘error’ event Error: spawn cmd…]]></description><link>https://t0m0y4n.github.io/recolog/2018-02-12/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-02-12/</guid><pubDate>Mon, 12 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;経緯&lt;/h2&gt;
 &lt;p&gt;日頃SurfacePro2でReactNativeを触っていたがデスクトップにも環境を入れるかと思った際に&lt;/p&gt;
 &lt;p&gt;
   &lt;a
