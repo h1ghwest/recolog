@@ -21,6 +21,7 @@ deployment:
       - git config --global user.name $NAME
       - sudo apt-get install fonts-ipafont fonts-ipaexfont
       - yarn deploy
+      - sleep 3m
       - node screenshot.js
       - ls screenshot
       - chmod +x ./screenshotCheck
