@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 06 Mar 2018 09:40:16 GMT</lastBuildDate><item><title><![CDATA[最近気になった物]]></title><description><![CDATA[codeigniter Phalcon しか触ったことなかった為お手軽そうなcodeigniterのtutorialを一回走った。 t0m0120/codeigniter-tutorial flutter/flutter google Dart製のAndroid/ios…]]></description><link>https://t0m0y4n.github.io/recolog/2018-03-02/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-03-02/</guid><pubDate>Fri, 02 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 13 Mar 2018 10:22:01 GMT</lastBuildDate><item><title><![CDATA[serverless framework入門]]></title><description><![CDATA[serverless/serverless 
+Lambdaなどのサーバレス環境のデバッグやデプロイをお手軽にするツール   discordへ現在のgithubの草を通知するLambdaFunction t0m0120/github-contribute-checker を t0m…]]></description><link>https://t0m0y4n.github.io/recolog/2018-03-12/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-03-12/</guid><pubDate>Mon, 12 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/serverless/serverless&quot;&gt;serverless/serverless&lt;/a&gt;
+Lambdaなどのサーバレス環境のデバッグやデプロイをお手軽にするツール  &lt;/p&gt;
+&lt;p&gt;discordへ現在のgithubの草を通知するLambdaFunction&lt;br&gt;
+&lt;a href=&quot;https://github.com/t0m0120/github-contribute-checker&quot;&gt;t0m0120/github-contribute-checker&lt;/a&gt;を&lt;br&gt;
+&lt;a href=&quot;https://github.com/t0m0120/github-contribute-checker-serverless&quot;&gt;t0m0120/github-contribute-checker-serverless&lt;/a&gt;へserverlessに直した。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://serverless.com/framework/docs/providers/aws/cli-reference/&quot;&gt;Serverless AWS Lambda CLI Reference&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ sls create -t template_name -p function_name
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;からhandler.jsとserverless.ymlの編集をし&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;$ sls deploy &lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;でデプロイ&lt;/p&gt;
+&lt;p&gt;CLI上でtest/deployをこなせる上にS3やDynamoDBなどを引っ張れるのでお手軽&lt;/p&gt;
+&lt;p&gt;react-nativeでは[AWSMobileHub]&lt;a href=&quot;https://aws.amazon.com/jp/mobile/(&quot;&gt;https://aws.amazon.com/jp/mobile/(&lt;/a&gt;)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[最近気になった物]]></title><description><![CDATA[codeigniter Phalcon しか触ったことなかった為お手軽そうなcodeigniterのtutorialを一回走った。 t0m0120/codeigniter-tutorial flutter/flutter google Dart製のAndroid/ios…]]></description><link>https://t0m0y4n.github.io/recolog/2018-03-02/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-03-02/</guid><pubDate>Fri, 02 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https://codeigniter.com/user_guide/tutorial/index.html&quot;&gt;codeigniter&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://phalconphp.com/ja/&quot;&gt;Phalcon&lt;/a&gt;しか触ったことなかった為お手軽そうなcodeigniterのtutorialを一回走った。&lt;br&gt;
@@ -20,7 +37,13 @@ ReactNative画面遷移だけで3つあるしな・・・&lt;/p&gt;
 Echodot毎日寝る前のBGMと寝起きのアラーム/ごみ出し日のリマインダーに使ってるけど&lt;br&gt;
 声だけで音楽かけたりアラームできるのは想像以上にいいので買うべき。もう一個リビングに欲しい。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[run-android(実機)でハマる]]></title><description><![CDATA[経緯 日頃SurfacePro2でReactNativeを触っていたがデスクトップにも環境を入れるかと思った際に で30分ぐらいハマる 解決策 events.js:182 throw er; // Unhandled ‘error’ event Error: spawn cmd…]]></description><link>https://t0m0y4n.github.io/recolog/2018-02-12/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-02-12/</guid><pubDate>Mon, 12 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;経緯&lt;/h2&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[gatsby自動デプロイとスクショ]]></title><description><![CDATA[このブログの更新方法をmasterへpushでgithub-pagesへ自動デプロイを CircleCIを用いて追加した。
+ recolog/circle.yml またgh-pages更新後に GoogleChrome/puppeteer…]]></description><link>https://t0m0y4n.github.io/recolog/2018-03-06/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-03-06/</guid><pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;このブログの更新方法をmasterへpushでgithub-pagesへ自動デプロイを&lt;br&gt;
+CircleCIを用いて追加した。
+&lt;a href=&quot;https://github.com/t0m0120/recolog/blob/master/circle.yml&quot;&gt;recolog/circle.yml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;またgh-pages更新後に&lt;a href=&quot;https://github.com/GoogleChrome/puppeteer&quot;&gt;GoogleChrome/puppeteer&lt;/a&gt;を使って更新後の記事の&lt;br&gt;
+スクリーンショットをS3に保存しDiscordへ通知するよう処理を追加した。
+&lt;a href=&quot;https://github.com/t0m0120/recolog/blob/master/screenshot.js&quot;&gt;recolog/screenshot.js&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[run-android(実機)でハマる]]></title><description><![CDATA[経緯 日頃SurfacePro2でReactNativeを触っていたがデスクトップにも環境を入れるかと思った際に で30分ぐらいハマる 解決策 events.js:182 throw er; // Unhandled ‘error’ event Error: spawn cmd…]]></description><link>https://t0m0y4n.github.io/recolog/2018-02-12/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-02-12/</guid><pubDate>Mon, 12 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;経緯&lt;/h2&gt;
 &lt;p&gt;日頃SurfacePro2でReactNativeを触っていたがデスクトップにも環境を入れるかと思った際に&lt;/p&gt;
 &lt;p&gt;
   &lt;a
