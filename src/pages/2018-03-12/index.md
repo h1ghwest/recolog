@@ -28,4 +28,4 @@ $ sls deploy
 
 CLI上でtest/deployをこなせる上にS3やDynamoDBなどを引っ張れるのでお手軽
 
-react-nativeでは[AWSMobileHub]https://aws.amazon.com/jp/mobile/()
+react-nativeでは[AWSMobileHub](https://aws.amazon.com/jp/mobile/)を使ってみたい。
