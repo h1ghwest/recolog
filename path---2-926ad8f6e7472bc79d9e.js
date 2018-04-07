@@ -1,2 +1,0 @@
-webpackJsonp([0x8f0ce58d3892],{508:function(e,t){e.exports={pathContext:{group:[{node:{id:"/home/ubuntu/recolog/src/pages/hellowordl.mov/index.md absPath of file >>> MarkdownRemark",excerpt:"去年のアウトプット不足を痛感したので去年を振り返りつつブログを始めて行こうと思う。 Reactを使った静的サイトジェネレーターを使ってgithub-pages上にとりあえず作成 gatsbyjs/gatsby 1月~4月 Wordpress…",frontmatter:{title:"2017年の振り返りと2018年",date:"28 January, 2018"},fields:{slug:"/hellowordl.mov/"}}}],pathPrefix:"",first:!1,last:!0,index:2,pageCount:2}}}});
-//# sourceMappingURL=path---2-926ad8f6e7472bc79d9e.js.map

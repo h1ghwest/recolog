@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 13 Mar 2018 10:29:20 GMT</lastBuildDate><item><title><![CDATA[serverless framework入門]]></title><description><![CDATA[serverless/serverless 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Sat, 07 Apr 2018 13:26:51 GMT</lastBuildDate><item><title><![CDATA[serverless framework入門]]></title><description><![CDATA[serverless/serverless 
 Lambdaなどのサーバレス環境のデバッグやデプロイをお手軽にするツール   discordへ現在のgithubの草を通知するLambdaFunction t0m0120/github-contribute-checker を t0m…]]></description><link>https://t0m0y4n.github.io/recolog/2018-03-12/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-03-12/</guid><pubDate>Mon, 12 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/serverless/serverless&quot;&gt;serverless/serverless&lt;/a&gt;
 Lambdaなどのサーバレス環境のデバッグやデプロイをお手軽にするツール  &lt;/p&gt;
 &lt;p&gt;discordへ現在のgithubの草を通知するLambdaFunction&lt;br&gt;
@@ -6,12 +6,11 @@ Lambdaなどのサーバレス環境のデバッグやデプロイをお手軽�
 &lt;a href=&quot;https://github.com/t0m0120/github-contribute-checker-serverless&quot;&gt;t0m0120/github-contribute-checker-serverless&lt;/a&gt;へserverlessに直した。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://serverless.com/framework/docs/providers/aws/cli-reference/&quot;&gt;Serverless AWS Lambda CLI Reference&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ sls create -t template_name -p function_name
-&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ sls create -t template_name -p function_name&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;からhandler.jsとserverless.ymlの編集をし&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;$ sls deploy &lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ sls deploy &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;でデプロイ&lt;/p&gt;
 &lt;p&gt;CLI上でtest/deployをこなせる上にS3やDynamoDBなどを引っ張れるのでお手軽&lt;/p&gt;
@@ -80,7 +79,7 @@ CircleCIを用いて追加した。
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;Error: spawn cmd.exe ENOENT&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Error: spawn cmd.exe ENOENT&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;で30分ぐらいハマる&lt;/p&gt;
 &lt;h2&gt;解決策&lt;/h2&gt;
@@ -117,8 +116,7 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
       replace&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;http://localhost:3000//build/script.min.js&quot;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h3&gt;&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;gatsby.js&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;このブログの作成に使用。&lt;br&gt;
