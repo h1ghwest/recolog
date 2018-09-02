@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/recolog/app-28aa228fedf035706f65.js","033a4fd6309fb7f1b8c536959873c4bb"],["/recolog/commons-1b8b98e4853af75dffa4.js","acae12a11fd6e0ccba68850e7fbdb83a"],["/recolog/index.html","58914ba5c63ec14db25dd7a850114c99"],["/recolog/offline-plugin-app-shell-fallback/index.html","2682e84813353e31bc6704dda06a5be4"]];
+var precacheConfig = [["/recolog/app-ba6c0add0c632d385de8.js","84a5a55c303b0ccd645d526f797754e1"],["/recolog/commons-4dde3163edd46dfd11d0.js","3d9fc9cf64c7c56962137ae83212b6cf"],["/recolog/index.html","efd079d65accd0a53f0e318e6f7474fa"],["/recolog/offline-plugin-app-shell-fallback/index.html","13f3f1156a642ef90a7755792592478c"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
