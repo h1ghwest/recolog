@@ -53,5 +53,5 @@ jobs:
         command: sleep 3m
         command: node screenshot.js
         command: ls screenshot
-        command: chmod +x ../screenshotCheck
-        command: ../screenshotCheck
+        command: chmod +x ./screenshotCheck
+        command: ./screenshotCheck
