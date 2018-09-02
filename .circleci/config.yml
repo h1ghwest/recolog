@@ -45,13 +45,21 @@ jobs:
         # These cache paths were specified in the 1.0 config
         - ~/.cache/yarn
 
+    - run: chmod +x ./screenshotCheck
+
     - run:
+        name: git login
         command: git config --global user.email $EMAIL
         command: git config --global user.name $NAME
+    - run:
+        name: install font
         command: sudo apt-get install fonts-ipafont fonts-ipaexfont
-        command: deploy
+    - run:
+        name: deploy blog
+        command: yarn deploy
+    - run:
+        name: screenshot
         command: sleep 3m
         command: node screenshot.js
         command: ls screenshot
-        command: chmod +x ./screenshotCheck
         command: ./screenshotCheck
