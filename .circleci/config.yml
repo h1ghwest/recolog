@@ -46,12 +46,12 @@ jobs:
         - ~/.cache/yarn
 
     - run:
-      command: git config --global user.email $EMAIL
-      command: git config --global user.name $NAME
-      command: sudo apt-get install fonts-ipafont fonts-ipaexfont
-      command: deploy
-      command: sleep 3m
-      command: node screenshot.js
-      command: ls screenshot
-      command: chmod +x ~/screenshotCheck
-      command: ~/screenshotCheck
+        command: git config --global user.email $EMAIL
+        command: git config --global user.name $NAME
+        command: sudo apt-get install fonts-ipafont fonts-ipaexfont
+        command: deploy
+        command: sleep 3m
+        command: node screenshot.js
+        command: ls screenshot
+        command: chmod +x ~/screenshotCheck
+        command: ~/screenshotCheck
