@@ -57,9 +57,3 @@ jobs:
     - run:
         name: deploy blog
         command: yarn deploy
-    - run:
-        name: screenshot
-        command: sleep 3m
-        command: node screenshot.js
-        command: ls screenshot
-        command: ./screenshotCheck
