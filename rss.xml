@@ -1,51 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Wed, 19 Sep 2018 23:20:55 GMT</lastBuildDate><item><title><![CDATA[Roppongi.js#6]]></title><description><![CDATA[Roppongi.js参加してきたのでメモ
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Wed, 19 Sep 2018 23:27:50 GMT</lastBuildDate><item><title><![CDATA[Roppongi.js#6]]></title><description><![CDATA[Roppongi.js参加してきたのでメモ
  https://roppongi-js.connpass.com/event/98983/ WebAssemblyのこれまでとこれから by  @fnwiya https://speakerdeck.com/urahiroshi…]]></description><link>https://t0m0y4n.github.io/recolog/2018-09-20/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-09-20/</guid><pubDate>Thu, 20 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Roppongi.js参加してきたのでメモ
 &lt;a href=&quot;https://roppongi-js.connpass.com/event/98983/&quot;&gt;https://roppongi-js.connpass.com/event/98983/&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;WebAssemblyのこれまでとこれから by &lt;a href=&quot;https://twitter.com/urahiroshi&quot;&gt;@fnwiya&lt;/a&gt;&lt;/h2&gt;
 &lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;dc6eee68302845f9bdc35cd814cbaadd&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/urahiroshi/sethuo-dong-falsesusume&quot;&gt;https://speakerdeck.com/urahiroshi/sethuo-dong-falsesusume&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;WebAssemblyはvsJSではなくJSが不得意なところのサポート&lt;/p&gt;
-&lt;p&gt;実際に使われているプロジェクト
-&lt;a href=&quot;https://www.figma.com/&quot;&gt;Figma&lt;/a&gt;とか
+&lt;p&gt;実際に使われているプロジェクト&lt;br&gt;
+&lt;a href=&quot;https://www.figma.com/&quot;&gt;Figma&lt;/a&gt;とか&lt;br&gt;
 数値は早いが文字列遅かったり呼び出し遅かったりするので今後に期待&lt;/p&gt;
 &lt;h2&gt;Vue.jsをv0.11.0からv2.5.16にあげようとしている話 by &lt;a href=&quot;https://twitter.com/iidaapp&quot;&gt;@iidaapp&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;闇が深い。
-bowerやgruntをwebpackへ&lt;/p&gt;
-&lt;p&gt;vueのmigrationはこれを使ったらしい
+&lt;p&gt;闇が深い。&lt;br&gt;
+bowerやgruntをwebpackへ  &lt;/p&gt;
+&lt;p&gt;vueのmigrationはこれを使ったらしい&lt;br&gt;
 &lt;a href=&quot;https://github.com/vuejs/vue-migration-helper&quot;&gt;https://github.com/vuejs/vue-migration-helper&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;こういうパッケージやら時代の進みで負債になるのどうにかなんないすかね…&lt;/p&gt;
 &lt;h2&gt;TypeScript and immutability by &lt;a href=&quot;https://twitter.com/brn227&quot;&gt;@brn0227&lt;/a&gt;&lt;/h2&gt;
 &lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;e879bc4998574dc0b8cdd9d6d3fe0dcb&quot; data-ratio=&quot;1.41436464088398&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/brn/typescript-and-immutability&quot;&gt;https://speakerdeck.com/brn/typescript-and-immutability&lt;/a&gt;
-外部ライブラリかスプレッド演算子使うしかない
-・参照透過性
-・副作用無し
-・PureComponentでパフォアッブ
-&lt;a href=&quot;https://github.com/facebook/immutable-js&quot;&gt;Immutable.js&lt;/a&gt;はTypeScriptと相性が悪い
-&lt;a href=&quot;https://github.com/mweststrate/immer&quot;&gt;immer&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/brn/typescript-and-immutability&quot;&gt;https://speakerdeck.com/brn/typescript-and-immutability&lt;/a&gt;&lt;br&gt;
+外部ライブラリかスプレッド演算子使うしかない&lt;br&gt;
+・参照透過性&lt;br&gt;
+・副作用無し&lt;br&gt;
+・PureComponentでパフォアッブ&lt;br&gt;
+&lt;a href=&quot;https://github.com/facebook/immutable-js&quot;&gt;Immutable.js&lt;/a&gt;はTypeScriptと相性が悪い&lt;br&gt;
+↓&lt;br&gt;
+&lt;a href=&quot;https://github.com/mweststrate/immer&quot;&gt;immer&lt;/a&gt;&lt;br&gt;
 PlanObject最高&lt;/p&gt;
 &lt;h2&gt;プロトタイプを越えるReact Native by &lt;a href=&quot;https://twitter.com/__timakin__&quot;&gt;@timakin&lt;/a&gt;&lt;/h2&gt;
 &lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;b052bb7cc6f148b99cd0c9db88ae0722&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/timakin/react-native-beyond-prototype&quot;&gt;https://speakerdeck.com/timakin/react-native-beyond-prototype&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/DylanVann/react-native-fast-image&quot;&gt;FastImage&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;課金ライブラリ
+&lt;p&gt;課金ライブラリ&lt;br&gt;
 &lt;a href=&quot;https://github.com/dooboolab/react-native-iap&quot;&gt;react-native-iap&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;JavaScriptはコンパイル言語か by &lt;a href=&quot;https://twitter.com/ariaki4dev&quot;&gt;@ariaki&lt;/a&gt;&lt;/h2&gt;
 &lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;22f1c345f89449b7aeb81d98b668bee3&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/ariaki/is-javascript-a-compiled-language&quot;&gt;https://speakerdeck.com/ariaki/is-javascript-a-compiled-language&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://astexplorer.net/&quot;&gt;ASTExploer&lt;/a&gt;
-JavaScriptをASTに分割。
-&lt;a href=&quot;http://int3.github.io/metajs/&quot;&gt;metaJS&lt;/a&gt;
-JavaScriptをASTに分割してステップ実行
-&lt;a href=&quot;https://estools.github.io/escodegen/demo/index.html&quot;&gt;escodegen&lt;/a&gt;
-Esprima/escodegenを使ってjsパース/再生成&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://astexplorer.net/&quot;&gt;ASTExploer&lt;/a&gt;&lt;br&gt;
+JavaScriptをASTに分割。&lt;br&gt;
+&lt;a href=&quot;http://int3.github.io/metajs/&quot;&gt;metaJS&lt;/a&gt;&lt;br&gt;
+JavaScriptをASTに分割してステップ実行&lt;br&gt;
+&lt;a href=&quot;https://estools.github.io/escodegen/demo/index.html&quot;&gt;escodegen&lt;/a&gt;&lt;br&gt;
+Esprima/escodegenを使ってjsパース/再生成  &lt;/p&gt;
 &lt;h2&gt;Universal package.json by &lt;a href=&quot;https://twitter.com/L_e_k_o&quot;&gt;@れこ&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://talks.leko.jp/universal-package.json/#0&quot;&gt;https://talks.leko.jp/universal-package.json/#0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/necolas/react-native-web&quot;&gt;react-native-web&lt;/a&gt;最近ちょくちょく見るイメージ
-webpackかMetro Bundlerかどっちかでわかれる&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/necolas/react-native-web&quot;&gt;react-native-web&lt;/a&gt;最近ちょくちょく見るイメージ&lt;br&gt;
+webpackかMetro Bundlerかどっちかでわかれる  &lt;/p&gt;
 &lt;h2&gt;親に向かってなんだそのz-indexは！！ by &lt;a href=&quot;https://twitter.com/bug_ojisan&quot;&gt;@ojisan&lt;/a&gt;&lt;/h2&gt;
 &lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;e5c905298752499b83cb006b28bd0c11&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/sadnessojisan/qin-nixiang-katutenandasofalsez-indexha&quot;&gt;https://speakerdeck.com/sadnessojisan/qin-nixiang-katutenandasofalsez-indexha&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/sadnessojisan/qin-nixiang-katutenandasofalsez-indexha&quot;&gt;https://speakerdeck.com/sadnessojisan/qin-nixiang-katutenandasofalsez-indexha&lt;/a&gt;&lt;br&gt;
 &lt;a href=&quot;https://developer.mozilla.org/ja/docs/Web/Guide/CSS/Understanding_z_index/The_stacking_context&quot;&gt;重ね合わせコンテキスト&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[serverless framework入門]]></title><description><![CDATA[serverless/serverless 
 Lambdaなどのサーバレス環境のデバッグやデプロイをお手軽にするツール   discordへ現在のgithubの草を通知するLambdaFunction t0m0120/github-contribute-checker を t0m…]]></description><link>https://t0m0y4n.github.io/recolog/2018-03-12/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-03-12/</guid><pubDate>Mon, 12 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/serverless/serverless&quot;&gt;serverless/serverless&lt;/a&gt;
 Lambdaなどのサーバレス環境のデバッグやデプロイをお手軽にするツール  &lt;/p&gt;
