@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Wed, 19 Sep 2018 23:27:50 GMT</lastBuildDate><item><title><![CDATA[Roppongi.js#6]]></title><description><![CDATA[Roppongi.js参加してきたのでメモ
- https://roppongi-js.connpass.com/event/98983/ WebAssemblyのこれまでとこれから by  @fnwiya https://speakerdeck.com/urahiroshi…]]></description><link>https://t0m0y4n.github.io/recolog/2018-09-20/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-09-20/</guid><pubDate>Thu, 20 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Roppongi.js参加してきたのでメモ
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Recolog]]></title><description><![CDATA[日々の技術や趣味について記録していくブログです。]]></description><link>https://t0m0y4n.github.io/recolog</link><generator>RSS for Node</generator><lastBuildDate>Fri, 21 Sep 2018 14:24:25 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[Roppongi.js参加してきたのでメモ
+ https://roppongi-js.connpass.com/event/98983/ SET活動のすすめ by @urahiroshi 遅刻して見れなかった… WebAssemblyのこれまでとこれから by  @fnwiya…]]></description><link>https://t0m0y4n.github.io/recolog/2018-09-20/</link><guid isPermaLink="false">https://t0m0y4n.github.io/recolog/2018-09-20/</guid><content:encoded>&lt;p&gt;Roppongi.js参加してきたのでメモ
 &lt;a href=&quot;https://roppongi-js.connpass.com/event/98983/&quot;&gt;https://roppongi-js.connpass.com/event/98983/&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;WebAssemblyのこれまでとこれから by &lt;a href=&quot;https://twitter.com/urahiroshi&quot;&gt;@fnwiya&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;SET活動のすすめ by&lt;a href=&quot;https://twitter.com/urahiroshi&quot;&gt;@urahiroshi&lt;/a&gt;&lt;/h2&gt;
 &lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;dc6eee68302845f9bdc35cd814cbaadd&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;遅刻して見れなかった…&lt;/p&gt;
+&lt;h2&gt;WebAssemblyのこれまでとこれから by &lt;a href=&quot;https://twitter.com/fnwiya&quot;&gt;@fnwiya&lt;/a&gt;&lt;/h2&gt;
+&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;80c6d723cc6f4cee9006701ca71f7bf6&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/urahiroshi/sethuo-dong-falsesusume&quot;&gt;https://speakerdeck.com/urahiroshi/sethuo-dong-falsesusume&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;WebAssemblyはvsJSではなくJSが不得意なところのサポート&lt;/p&gt;
 &lt;p&gt;実際に使われているプロジェクト&lt;br&gt;
